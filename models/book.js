@@ -1,13 +1,14 @@
 const mongoose = require('mongoose')
+
 const bookSchema = new mongoose.Schema({
   title: {
     type: String,
     required: true
   },
   description: {
-    title: String
-   },
-   publishDate: {
+    type: String
+  },
+  publishDate: {
     type: Date,
     required: true
   },
@@ -35,4 +36,10 @@ const bookSchema = new mongoose.Schema({
   }
 })
 
-module.exports = mongoose.model('book', bookSchema)
+bookSchema.virtual('coverImagePath').get(function() {
+  if (this.coverImage != null && this.coverImageType != null) {
+    return `data:${this.coverImageType};charset=utf-8;base64,${this.coverImage.toString('base64')}`
+  }
+})
+
+module.exports = mongoose.model('Book', bookSchema)
