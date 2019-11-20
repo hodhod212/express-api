@@ -12,6 +12,8 @@ git commit -m "använder npm i git" -----------------
 git push -u origin master   -------------------
 npm i heroku  -----------------
 https://git.heroku.com/express-api212.git  -----------------
+https://express-api212.herokuapp.com/    ----------------
+
 
 
 
