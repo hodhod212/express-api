@@ -7,5 +7,6 @@ npm run devStart ---------------
 npm i ejs   -------------------
 npm i mongoose -----------------
 npm i --save-dev dotenv  ---------------
-
+git add .  -----------------
+git commit -m "använder npm i git"
 
