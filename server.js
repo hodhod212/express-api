@@ -5,7 +5,7 @@
   const express = require('express')
   const app = express()
   const expressLayouts = require('express-ejs-layouts')
-  //const bodyParser = require('body-parser')
+  const bodyParser = require('body-parser')
   //const methodOverride = require('method-override')
   app.set('view engine','ejs')
   const indexRouter = require('./routes/index')
@@ -15,7 +15,7 @@
   app.use(expressLayouts)
   //app.use(methodOverride('_method'))
   app.use(express.static('public'))
-  //app.use(bodyParser.urlencoded({ limit: '10mb', extended: false }))
+  app.use(bodyParser.urlencoded({ limit: '10mb', extended: false }))
   
   const mongoose = require('mongoose')
   mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true })
