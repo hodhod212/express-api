@@ -2,9 +2,10 @@
   "name": "express-api",
   "version": "1.0.0",
   "description": "inlämning 1 ----------------------------------------------------------------------------\r npm init -y  --------------------------------------------------------------------------",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,15 @@
   "bugs": {
     "url": "https://github.com/hodhod212/express-api/issues"
   },
-  "homepage": "https://github.com/hodhod212/express-api#readme"
+  "homepage": "https://github.com/hodhod212/express-api#readme",
+  "dependencies": {
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "mongoose": "^5.7.12"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^1.19.4"
+  }
 }
