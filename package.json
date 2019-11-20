@@ -1,0 +1,20 @@
+{
+  "name": "express-api",
+  "version": "1.0.0",
+  "description": "inlämning 1 ----------------------------------------------------------------------------\r npm init -y  --------------------------------------------------------------------------",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hodhod212/express-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hodhod212/express-api/issues"
+  },
+  "homepage": "https://github.com/hodhod212/express-api#readme"
+}
