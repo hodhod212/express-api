@@ -8,5 +8,10 @@ npm i ejs   -------------------
 npm i mongoose -----------------
 npm i --save-dev dotenv  ---------------
 git add .  -----------------
-git commit -m "använder npm i git"
+git commit -m "använder npm i git" -----------------
+git push -u origin master   -------------------
+npm i heroku  -----------------
+https://git.heroku.com/express-api212.git  -----------------
+
+
 
