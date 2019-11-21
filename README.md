@@ -16,7 +16,9 @@ https://express-api212.herokuapp.com/    ----------------
 heroku git:remote -a express-api212    ---------------
 npm i body-parser  --------------------
 npm i multer  ---------------------------
-
+$ git add .  -----------------
+$ git commit -am "make it better"  ------------------
+$ git push heroku master  ------------------
 
 
 
