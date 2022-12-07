@@ -19,9 +19,9 @@
   },
   "homepage": "https://github.com/hodhod212/express-api#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "ejs": "^2.7.4",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "express-ejs-layouts": "^2.5.0",
     "heroku": "^7.35.0",
     "heroku-cli": "^7.0.9",
